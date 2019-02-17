@@ -1,0 +1,19 @@
+{
+  "name": "weather-today",
+  "version": "1.0.0",
+  "description": "nodejs-weather-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarkle/weather-today.git"
+  },
+  "author": "Beverly Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zarkle/weather-today/issues"
+  },
+  "homepage": "https://github.com/zarkle/weather-today#readme"
+}
