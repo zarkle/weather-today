@@ -8,6 +8,12 @@
   </head>
   <body>
     <div class="container">
+      <% if(weather !== null){ %>
+        <p><%= weather %></p>
+      <% } %>
+      <% if(error !== null){ %>
+        <p><%= error %></p>
+      <% } %>
       <fieldset>
         <form action="/" method="post">
           <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
