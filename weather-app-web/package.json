@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zarkle/weather-today/issues"
   },
-  "homepage": "https://github.com/zarkle/weather-today#readme"
+  "homepage": "https://github.com/zarkle/weather-today#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
