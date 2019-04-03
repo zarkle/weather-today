@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Weather for {{ name }}</h2>
+<p>The temperature in {{ name }} is {{ main.temp }} degrees F and described as {{ weather[0].description }}</p>
+
+<a href="{{ url_for('.home') }}">Search new city</a>
+{% endblock %}
