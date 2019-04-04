@@ -4,4 +4,4 @@ from wtforms.validators import DataRequired
 
 
 class CitySearchForm(FlaskForm):
-    city_name = StringField('name', validators=[DataRequired()])
+    city_name = StringField('Enter City:', validators=[DataRequired()])
