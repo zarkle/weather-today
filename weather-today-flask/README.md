@@ -1,4 +1,4 @@
-# Weather Today App
+# Weather Today
 ## Flask/Python version
 
 A weather app using Python's Flask framework and the OpenWeather API to return the current weather in a city. Every request will also be recorded in a database.
