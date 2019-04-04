@@ -1,4 +1,7 @@
-# Weather Today
+# Weather Today 
+### Node.js and Flask versions
+
+#### Node.js (JavaScript)
 A weather app using Node.js and the OpenWeather API to return the current weather in a city. There are 2 versions:
 
 [Console](https://github.com/zarkle/weather-today/tree/master/weather-app-console): A CLI version of the app.
@@ -9,4 +12,9 @@ Note: You should have [Node.js](https://nodejs.org/en/) and [npm](https://www.np
 
 You will also need an account on [OpenWeather](https://openweathermap.org/api) (don't worry, it's free).  Once signed in, select the API Keys tab. This is where your API key is that you will need later.
 
-Credits: Adapted from an online tutorial
+
+#### Flask (Python)
+A [weather app](https://github.com/zarkle/weather-today/tree/master/weather-today-flask) using Python's [Flask](http://flask.pocoo.org/) framework and the OpenWeather API to return the current weather in a city. Every request will also be recorded in a postgresql database.
+
+
+Credits: Adapted from various tutorials
