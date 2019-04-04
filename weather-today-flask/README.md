@@ -14,5 +14,5 @@ To use:
 - Run `pip install -r requirements.txt` to install dependencies
 - Make sure you have your `weather-today` database created, and run `flask db upgrade`
 - Finally, run `flask run` to start the server and open your browser to `localhost:5000` to use the app.
-
+ 
 Credits: Adapted from various tutorials
