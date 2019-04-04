@@ -42,11 +42,16 @@ def city_detail(city_name=None):
 
         try:
             context = json.loads(session['context'])
-            city = City(city_name=context['name'])
+            city = City(city_name=context['name'], temp=context['main']['temp'], description=context['weather'][0]['description'])
+            print(city)
+            # temp = City(temp=context['main']['temp'])
+            # desc = City(description=context['weather'][0]['description'])
             db.session.add(city)
+            # db.session.add(temp)
+            # db.session.add(desc)
             db.session.commit()
             return render_template('city_detail.html', **context)
         except KeyError as e:
             print(e)
-            res = make_response('Sorry, that is not a valid city. Go back and try again', 400)
+            res = make_response('Sorry, you did not enter a valid city. Go back and try again', 400)
             return res
