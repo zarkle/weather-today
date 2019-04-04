@@ -1,3 +1,7 @@
+body {
+    margin: 10px;
+}
+
 header {
     border-bottom: 0.05vh solid slategray;
     box-shadow: 0 4px 2px -2px slategray;
