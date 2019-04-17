@@ -14,7 +14,7 @@ You will also need an account on [OpenWeather](https://openweathermap.org/api) (
 
 
 #### Flask (Python)
-A [weather app](https://github.com/zarkle/weather-today/tree/master/weather-today-flask) using Python's [Flask](http://flask.pocoo.org/) framework and the OpenWeather API to return the current weather in a city. Every request will also be recorded in a postgresql database.
+A [weather app](https://github.com/zarkle/weather-today/tree/master/weather-today-flask) using Python's [Flask](http://flask.pocoo.org/) framework and the OpenWeather API to return the current weather in a city. Every request will also be recorded in a postgresql database. Deployed at https://todays-weather.herokuapp.com/
 
 
 ### Future Features:
