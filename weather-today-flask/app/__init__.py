@@ -14,4 +14,4 @@ app.config.from_mapping(
 )
 
 
-from .app import routes, forms, models
+from . import routes, forms, models
