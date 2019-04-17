@@ -22,4 +22,4 @@ A [weather app](https://github.com/zarkle/weather-today/tree/master/weather-toda
 - abiltiy to choose Celsius or Fahrenheit
 - show recent searches
 
-Credits: Adapted from various tutorials
+**Credits:** Adapted from various tutorials
