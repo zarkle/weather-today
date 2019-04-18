@@ -4,7 +4,7 @@ https://todays-weather.herokuapp.com/
 
 A weather app using Python's Flask framework and the OpenWeather API to return the current weather in a city. Every request is also recorded in a PostgreSQL database.
 
-Note: You should know how to use a Python virtual environment before using this app, have Postgresql installed on your machine (and know your username/password) and create a database named `weather-today`.
+Note: You should know how to use a Python virtual environment before using this app, have Postgresql installed on your machine (and know your username/password) and create a database named `weather_today`.
 
 You will also need an account on [OpenWeather](https://openweathermap.org/api) (don't worry, it's free). Once signed in, select the API Keys tab. This is where your API key is that you will need later.
 
